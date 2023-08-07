@@ -120,8 +120,7 @@ function MovieVideos() {
                 width="853"
                 height="480"
                 src={`https://www.youtube.com/embed/${item.key}`}
-                title="Intro Cực Cháy Tại Của Sơn Tùng - MTP || Âm Thanh Đêm Nay, Anh Chơi Tung Bay"
-                frameBorder="0"
+                title="Type"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
                 className="mx-auto rounded-lg mb-10 w-[1280px] h-full"

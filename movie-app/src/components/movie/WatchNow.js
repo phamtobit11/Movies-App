@@ -8,7 +8,7 @@ import { fetcher } from "../../config";
 
 const WatchNow = () => {
   const [movie, setMovie] = useState([]);
-  const { data, error, isLoading } = useSWR(
+  const { data } = useSWR(
     "https://api.themoviedb.org/3/movie/now_playing?api_key=f5a43681d0bf8befde9029e07f8ec821",
     fetcher
   );

@@ -5,7 +5,7 @@ import MovieCard from "../components/movie/MovieCard";
 import useDebounce from "../hooks/useDebounce";
 import ReactPaginate from "react-paginate";
 
-const pageCount = 5;
+// const pageCount = 5;
 const itemsPerPage = 20;
 const MoviePage = () => {
   const [nextPage, setNextPage] = useState(1);
@@ -103,7 +103,7 @@ const MoviePage = () => {
       </div>
 
       {/* phan trang */}
-      <div className="flex items-center justify-center text-white mt-7 gap-x-5 hidden">
+      <div className=" items-center justify-center text-white mt-7 gap-x-5 hidden">
         <span onClick={() => setNextPage(nextPage - 1)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"

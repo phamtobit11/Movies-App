@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import MovieList from '../components/movie/MovieList';
+import TopRated from '../components/movie/TopRated';
 
 const HomaPage = () => {
     return (
@@ -18,7 +19,7 @@ const HomaPage = () => {
         <h2 className="capitalize text-white mb-5 font-bold text-2xl">
           Top Reted
         </h2>
-        <MovieList type="top_rated"></MovieList>
+        <TopRated type="top_rated"></TopRated>
       </section>
 
       {/* Trending */}
